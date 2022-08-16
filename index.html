@@ -261,47 +261,8 @@
                     </div>
                     </p>
                 </section>
-                <section id="servlet" style="padding-top: 20px; margin: 10px 0 0 0;">
-                    <div class="first-in-column" style="text-align: center;">
-                        <h3 style="color: #eee;">Get your birth-year!</h3>
-                        <p style="color: #eee">
-                            Enter your age! 
-                            <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="myage"> <br>
-                            Click the "Try it" button to get your birth year!
-                            <button id="agebt" onclick="myAge(), showServerTime();">Try it</button><br><br>
-                            If you already had your birthday, it means you were born in:<p id="demo"></p>
-                            <p style="color: #eee;">As of today:</p> <p id="date-container"></p>
-                        </p>
-                    </div>
-                    <div class="second-in-column" style="text-align: center;">
-                        <h3 style="color: #eee;">Get one of my favorites Quotes!</h3>
-                        <p style="color: #eee;">
-                            Click the "QUOTE" button!
-                            <button id="quo" onclick="addRandomQuote()">QUOTE</button><br><br><br>
-                            <p id="quote-container"></p>
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <div class="first-in-column" style="color: #333;">
-                        <div id="servlet">
-                            <form action="/form-handler" method="POST">
-                                <h3>SEND ME A MESSAGE!</h3>
-                                <p>Enter your name here:</p>
-                                <textarea name="name"></textarea>
-                                <p>Enter your message here:</p>
-                                <textarea name="message"></textarea>
-                                <br/>
-                                <button id="agebt"> <input type="submit" /> Send!</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="second-in-column" style="color: #333; align-content: center;">
-                        <h3>Messages sent: </h3>
-                        <button id="quo" onclick="addMessages()">Click me to see Messages</button><br>
-                            <p id="message-container"></p>
-                    </div>
-                </section>
+   
+                
             </div>
         </div>
         <div class="popup">
